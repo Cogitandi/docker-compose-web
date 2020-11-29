@@ -1,7 +1,7 @@
 # Aplikacja kontenerowa docker-compose
 Aplikacja stworzona w celach badawczych 
 ## Graficzna reprezentacja projektu
-<img src="https://github.com/Cogitandi/docker-compose-web/docker-compose.png" width=40%>
+<img src="https://github.com/Cogitandi/docker-compose-web/blob/main/docker-compose.png">
 ## Instalacja
 Należy pobrać pliki z repozytorium
 ```
