@@ -2,7 +2,7 @@
 
 Aplikacja stworzona w celach badawczych 
 
-## Po uruchomieniu aplikacji, możemy się komunikować z serwerem za pomocą portu 6666
+####Po uruchomieniu aplikacji, możemy się komunikować z serwerem za pomocą portu 6666
 
 <img src="https://github.com/Cogitandi/docker-compose-web/blob/main/result.png">
 
