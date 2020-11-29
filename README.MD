@@ -1,8 +1,11 @@
 # Apache / MySQL / PHP skonteryzowane za pomocą Dockera
 
-Aplikacja stworzona w celach badawczych 
+Projekt pozwala na zbudowaniu usługi LAMP, składającej się z trzech oddzielnych serwerów- Apache, PHP oraz MySQL.
+PHP wraz MySQL znajdują się w jednej sieci - backend
+Apache ma dostęp do sieci backend oraz frontend
+Na serwerze apache skonfigurowane jest proxy, które współpracuje z serwerem PHP
 
-#### Po uruchomieniu aplikacji, możemy się komunikować z serwerem za pomocą portu 6666
+#### Po uruchomieniu aplikacji, możemy się komunikować z zewnątrz za pomocą portu 6666
 
 <img src="https://github.com/Cogitandi/docker-compose-web/blob/main/result.png">
 
