@@ -1,14 +1,14 @@
-# Aplikacja kontenerowa docker-compose
+# Apache / MySQL / PHP skonteryzowane za pomocą Dockera
 
 Aplikacja stworzona w celach badawczych 
 
 ## Po uruchomieniu aplikacji, możemy się komunikować z serwerem za pomocą portu 6666
 
-<img src="https://github.com/Cogitandi/docker-compose-web/result.png">
+<img src="https://github.com/Cogitandi/docker-compose-web/blob/main/result.png">
 
 ## Graficzna reprezentacja projektu
 
-<img src="https://github.com/Cogitandi/docker-compose-web/docker-compose.png">
+<img src="https://github.com/Cogitandi/docker-compose-web/blob/main/docker-compose.png">
 
 ## Instalacja
 
