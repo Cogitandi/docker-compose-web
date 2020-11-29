@@ -1,38 +1,22 @@
-version: "3.7"
-services:
-  apache:
-    build:
-      context: './apache/'
-    depends_on:
-      - php
-      - mysql
-    networks:
-      - frontend
-      - backend
-    ports:
-      - "6666:80"
-    volumes:
-      - ./public_html:/var/www/html/
-    container_name: apache
-  php:
-    build: 
-      context: './php/'
-    networks:
-      - backend
-    volumes:
-      - ./public_html:/var/www/html/
-    container_name: php
-  mysql:
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password 
-    restart: always
-    networks:
-      - backend
-    environment:
-      MYSQL_ROOT_PASSWORD: "root"
-      MYSQL_USER: "user"
-      MYSQL_PASSWORD: "secret"
-    container_name: mysql
-networks:
-  frontend:
-  backend:
+# Aplikacja kontenerowa docker-compose
+Aplikacja stworzona w celach badawczych 
+## Graficzna reprezentacja projektu
+<img src="https://github.com/Cogitandi/docker-compose-web/docker-compose.png" width=40%>
+## Instalacja
+Należy pobrać pliki z repozytorium
+```
+$ git clone https://github.com/Cogitandi/docker-compose-web.git
+```
+Zmieniamy katalog roboczy
+```
+$ cd docker-compose-web
+```
+Przydzielamy uprawnienia do prawidłowego funkcjonowania
+```
+$ chmod -R 755 public_html
+```
+Uruchamiamy
+```
+$ docker-compose up
+```
+
