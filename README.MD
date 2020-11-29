@@ -14,13 +14,13 @@ Aplikacja stworzona w celach badawczych
 
 Należy pobrać pliki z repozytorium
 ```
-$ curl -L https://github.com/Cogitandi/docker-compose-web/archive/main.zip -o zadanie.zip
+$ git clone https://github.com/Cogitandi/docker-compose-web.git
 ```
 Zmieniamy katalog roboczy
 ```
-$ cd zadanie
+$ cd docker-compose-web
 ```
-Przydzielamy uprawnienia do prawidłowego funkcjonowania
+Przydzielamy uprawnienia do prawidłowego funkcjonowania aplikacji
 ```
 $ chmod -R 755 public_html
 ```
